@@ -14,7 +14,7 @@ public class AppTest {
     
     @Test
     public void runAllTests() {
-        Class<?>[] classes = { ParallelTest1.class, ParallelTest2.class };
+        Class<?>[] classes = { AddACustomer.class, SearchACustomer.class };
 
         // ParallelComputer(true,true) will run all classes and methods 
         // in parallel.  (First arg for classes, second arg for methods)
